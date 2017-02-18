@@ -1,13 +1,13 @@
 # Syntax Highlighting
 
-##scala
+## scala
 ```scala
 val foo="bar"
 ```
 
-##elm
+## elm
 ```elm
 update : Msg -> Model -> Model
-update _ _ ="bar"
+update _ _ = "bar"
 ```
 
