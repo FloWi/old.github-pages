@@ -5280,6 +5280,13 @@ var author$project$ThreesDraw$headerDiv = A2(
 			_List_fromArray(
 				[
 					elm$html$Html$text('Threes clone written in elm')
+				])),
+			A2(
+			elm$html$Html$h3,
+			_List_Nil,
+			_List_fromArray(
+				[
+					elm$html$Html$text('Currently a not properly functioning WIP, since I just started learning elm :)')
 				]))
 		]));
 var elm$core$List$intersperse = F2(
