@@ -32,7 +32,7 @@ body {
     background-color: #fff;
     color: #444;
 }
-.box {
+.cell {
     background-color: #444;
     color: #fff;
     border-radius: 5px;
@@ -53,12 +53,15 @@ body {
 
 .board-area-with-details {
     display: grid;
+    /*grid-gap: 30px;*/
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    /*grid-template-rows: 1fr 1fr ;*/
     grid-template-areas:
-            "....... up    ......."
-            "left    board right  "
-            "....... down  ......."
+            "board   ..... ....... ..... "
+            "up      down  left    right "
               ;
 }
+
 
 .board {
     grid-area: board;
